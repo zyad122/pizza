@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.4)),url(pizza.jpeg) ;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+.container{
+ margin-top: 150px;
+}
+.container h2{
+    margin-bottom: 40px;
+    
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align:center ;
+    font-family: serif;
+}
+.container form{
+    border: 1px solid rgb(255,255,255, 0.6);
+    border-radius: 20px;
+    width: 550px;
+    min-height: 640px;
+    box-shadow: 10px 10px 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+.container form label{
+    margin-top: 20px;
+    display: block;
+    color: white;
+    font-size: 24px;
+    font-weight:bold ;
+    margin-bottom: 18px;
+
+    margin-left: 10px;
+
+}
+input, select, textarea{
+    width: 90%;
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius:8px ;
+    padding: 10px;
+    color: white;
+}
+select{
+    background-color: rgba(0,0,0,0.4);
+
+}
+input:hover,
+select:hover,
+textarea:hover{
+    border-color: #fff;
+
+}
+.submit{
+    margin-left: 200px;
+    margin-top: 15px;
+    padding: 8px 30px;
+    background: transparent;
+    color: white;
+}
+.submit:hover{
+    background-color: #fff;
+    color: black;
+}
