@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wa3kaa4.css">
+    <script src="main.js"></script>
+    <title>Reservation</title>
+</head>
+<body>
+    <!--<img  src="pexels-anhelina-vasylyk-734724285-33592996.jpg" alt="">-->
+    <div class="nnn">
+        <p>
+            Make a Reservation
+        </p>
+    </div>
+        <div class="container">
+            <section > 
+                <div id="toast" class="toast">
+                    The Reservation has been submitted
+    
+                </div>
+    
+                <form action="#" method="post">
+                    <div class="num1">
+                        <label class="la1">Full Name:</label>
+                        <input class="input1" type="text" autofocus placeholder="Enter Full Name">
+                    </div>
+                    <hr>
+                    <div class="num2">
+                        <label class="la2">Full Number:</label>
+                        <input class="input2" type="text" pattern="[0-9]{11}" minlength="11" maxlength="11" inputmode="numeric" placeholder="Enter Full Number">
+
+                    </div>
+                    <hr>
+                    <div class="num3">
+                        <label class="la3">Reservation date/time:</label>
+                        <input class="input3" type="datetime-local">
+
+                    </div>
+                    <hr>
+                    <div class="num4">
+                        <label class="la4">Number of Guests:</label>
+                        <input class="input4" type="number" min="0" max="50" step="1" value="2" cotrol >
+
+                    </div>
+                    <hr>
+                    <div class="indoorOutdoor">
+                        <label class="lac2"> Seating Preference(Indoor/Outdoor):</label>
+                        <div class="indoor">
+                            <input id="in" type="radio" name="SP" value="Indoor">
+                            <label class="labin" for="in">Indoor.</label>
+
+                        </div>
+                        <div class="outdoor">
+                            <input id="out" type="radio" name="SP" value="Outdoor">
+                            <label class="labout" for="oput">Outdoor.</label>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="specialR">
+                        <label class="lacc">Special Requests(Optional):</label>
+                        <textarea rows="5" cols="5" placeholder="Write Your Requests"></textarea>
+                        
+
+                    </div>
+
+                    <hr>
+                    <div class="buttons">
+                        <button class="buttonsub" type="submit" >Submit</button>
+                        <button class="buttonres" type="reset" >Reset</button>
+                    </div>    
+
+                </form>
+                
+            </section>
+        </div>
+
+   
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
